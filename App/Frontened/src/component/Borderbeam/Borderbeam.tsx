@@ -5,8 +5,8 @@ import { BorderBeam } from "../magicui/border-beam"
 
 export function BorderBeamDemo(props) {
   return (
-    <div className=" relative flex flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl hover:bg-white transition-all duration-500 hover:text-black ">
-      <span className="w-full h-full text-white hover:text-black transition-all duration-500 text-2xl p-5 py-9 font-semibold text-center ">
+    <div className=" w-full relative flex flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl hover:bg-white transition-all duration-500 hover:opacity-85 hover:text-black ">
+      <span className="w-full h-full text-white  hover:text-black transition-all duration-500 text-2xl p-5 py-9 font-semibold text-center ">
        
         {props.name}
       </span>
