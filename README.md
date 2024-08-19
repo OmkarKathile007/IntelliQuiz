@@ -1,6 +1,6 @@
 # IntelliQuiz
 
-IntelliQuiz is an AI-driven quiz application that generates multiple-choice questions (MCQs) based on the content of a paragraph pasted into the input area. This project uses the MERN stack (MongoDB, Express.js, React, Node.js) and integrates with Google Generative AI to create dynamic quizzes.
+IntelliQuiz is an AI-driven quiz application that generates multiple-choice questions (MCQs) based on the content of a paragraph pasted into the input area. This project uses the MERN stack and integrates with Google Generative AI to create dynamic quizzes.
 
 ## Features
 
