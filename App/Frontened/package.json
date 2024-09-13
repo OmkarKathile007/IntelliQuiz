@@ -14,11 +14,14 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.4",
     "@mui/material": "^5.16.4",
+    "axios": "^1.7.3",
     "clsx": "^2.1.1",
+    "cobe": "^0.6.3",
     "framer-motion": "^11.3.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
+    "react-spring": "^9.7.4",
     "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {

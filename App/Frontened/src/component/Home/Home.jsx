@@ -3,6 +3,7 @@ import AIimage from '../../assets/AI-Image.png';
 import Block from '../Block/Block';
 import Card from '../Card/Card';
 import Footer from '../Footer/Footer';
+import Intelli_Img from '../../assets/Intelli_Img1.jpg'
 
 const Home = () => {
   return (
@@ -29,8 +30,8 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className='border-2 border-pink mt-8 md:mt-20 flex justify-center md:justify-end md:w-1/2'>
-            <img className='max-w-full' src={AIimage} alt='AI' />
+          <div className='border-2 border-pink mt-8 md:mt-20 flex justify-center md:justify-end md:w-1/2 shadow-xl shadow-white'>
+            <img className='max-w-full  ' src={AIimage} alt='AI' />
           </div>
         </div>
       </div>
@@ -42,7 +43,7 @@ const Home = () => {
 
 
       <div className='border-2 border-x-pink-200 mt-10'>
-        <p className='text-white text-7xl ml-8 mt-11 font-bold '>Features</p>
+        <p className='text-white text-7xl ml-8 mt-11 font-bold animate-appear'>Features</p>
       </div>
         
 
@@ -51,7 +52,7 @@ const Home = () => {
             <img className='w-full h-auto' src={AIimage} alt="" />
           </div>
 
-          <div className='flex flex-col gap-5 my-7 border-2 border-orange-500 w-full md:w-2/3  items-center'>
+          <div className='flex flex-col gap-5 my-7 border-2 border-orange-500 w-full md:w-2/3  items-center  animate-appear'>
             <Block name='Students Using Technology' />
             <Block name='A visual representation of an interactive quiz' />
             <Block name='Dashboard showing detailed quiz analytics' />
@@ -71,9 +72,10 @@ const Home = () => {
       
          <div className='w-full min-h-full  py-24 border-2  border-blue-500 flex flex-col gap-3 md:flex-row justify-evenly items-center '>
           
-          <Card/>
-          <Card/>
-          <Card/>
+          <Card image={AIimage}/>
+          <Card image={AIimage}/>
+          <Card image={AIimage} />
+         
 
           
 
@@ -100,3 +102,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

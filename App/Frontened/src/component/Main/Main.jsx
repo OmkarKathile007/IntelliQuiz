@@ -26,7 +26,7 @@ return (
         </div>
       </div>
 
-      <div className='w-10/12 md:w-1/3 h-1/2 mt-20 flex flex-col items-center mr-8 md:h-1/2'>
+      <div className='w-10/12 md:w-1/3 h-1/2 mt-20 flex flex-col items-center mr-8 md:h-1/2 shadow-lg shadow-white'>
         <img src={MainMenuImage} alt="" />
       </div>
     </div>

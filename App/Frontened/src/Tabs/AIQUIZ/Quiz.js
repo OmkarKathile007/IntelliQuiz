@@ -34,7 +34,7 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
-const apiKey = "AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo";
+const apiKey = API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
@@ -58,7 +58,7 @@ async function run(prompt) {
     ],
   });
 
-  const result = await chatSession.sendMessage(prompt);
+  const result = await chatSession.sendMessage(prompt+"Generate 10 MCQ questions on it");
   console.log(result.response.text());
   return response.text();
 }

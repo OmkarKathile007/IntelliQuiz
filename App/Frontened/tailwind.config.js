@@ -14,6 +14,7 @@ export default {
       },
       animation: {
         "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+        appear: 'appear linear',
       },
       keyframes: {
         "border-beam": {
@@ -21,8 +22,15 @@ export default {
             "offset-distance": "100%",
           },
         },
+        appear: {
+          '0%': { opacity: '0', transform: 'scale(0.5)' },
+          '100%': { opacity: '1', transform: 'scale(1) translateX(0px)' },
+        },
+
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
