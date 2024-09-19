@@ -20,7 +20,7 @@ const GenAI = () => {
     setAnswer("loading");
     // <SpinnerLoad/>
       const response= await axios({
-        url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo",
+        url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}",
         method:"post",
         data:{
           contents:[
