@@ -24,12 +24,12 @@ const GenAI = () => {
     setAnswer("loading");
     // <SpinnerLoad/>
       const response= await axios({
-<<<<<<< HEAD
-        url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo",
+
+        
         //  url:`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
-=======
+
         url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}",
->>>>>>> 6a34d22bf86e5bea567c43c4bc40679e68d13801
+
         method:"post",
         data:{
           contents:[
@@ -82,7 +82,7 @@ const GenAI = () => {
 }
 
 export default GenAI
-<<<<<<< HEAD
+
 
 
 // import React, { useState } from 'react';
@@ -151,5 +151,4 @@ export default GenAI
 
 // export default GenAI;
 
-=======
->>>>>>> 6a34d22bf86e5bea567c43c4bc40679e68d13801
+
