@@ -15,10 +15,10 @@ const Home = () => {
             <h2 className='text-3xl md:text-7xl font-bold text-blue-300 mt-10 md:mt-40'>
               AI Driven Quiz
             </h2>
-            <p className='mt-5 text-base md:text-xl font-semibold'>
+            <p className='mt-5 text-base md:text-xl '>
               Experience the future of learning with our AI-driven quizzes. Tailored questions, instant feedback, and adaptive difficulty ensure a personalized and engaging experience.
             </p>
-            <ul className='mt-7 text-base md:text-xl ml-4 md:ml-8 font-semibold'>
+            <ul className='mt-7 text-base md:text-xl ml-4 md:ml-8 '>
               <li>Adaptive Learning</li>
               <li>Instant Feedback</li>
               <li>Detailed Analytics</li>
@@ -31,7 +31,7 @@ const Home = () => {
             </div>
           </div>
           <div className='border-2 border-pink mt-8 md:mt-20 flex justify-center md:justify-end md:w-1/2 shadow-xl shadow-white'>
-            <img className='max-w-full  ' src={AIimage} alt='AI' />
+            <img className='max-w-full' src={AIimage} alt='AI' />
           </div>
         </div>
       </div>
@@ -75,6 +75,8 @@ const Home = () => {
           <Card image={AIimage}/>
           <Card image={AIimage}/>
           <Card image={AIimage} />
+
+
          
 
           
