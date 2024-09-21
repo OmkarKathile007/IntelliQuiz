@@ -1,9 +1,9 @@
-// const apiKey="AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo";
+// const apiKey="";
 
 // import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // // Access your API key as an environment variable.
-// const genAI = new GoogleGenerativeAI("AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo");
+// const genAI = new GoogleGenerativeAI("");
 
 // async function run() {
 //   // Choose a model that's appropriate for your use case.
