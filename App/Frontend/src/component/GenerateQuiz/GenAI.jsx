@@ -24,8 +24,17 @@ const GenAI = () => {
     setAnswer("loading");
     // <SpinnerLoad/>
       const response= await axios({
+<<<<<<< HEAD:App/Frontend/src/component/GenerateQuiz/GenAI.jsx
         url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDzDsA_rg1EzgFasXjH7kudY7g9ti9mEIo",
         //  url:`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
+=======
+
+        
+        //  url:`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${process.env.REACT_APP_GOOGLE_API_KEY}`,
+
+        url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}",
+
+>>>>>>> bdb2c2e812fe8c88bb5ecbd10936342530d65018:App/Frontened/src/component/GenerateQuiz/GenAI.jsx
         method:"post",
         data:{
           contents:[
@@ -147,3 +156,7 @@ export default GenAI
 
 // export default GenAI;
 
+<<<<<<< HEAD:App/Frontend/src/component/GenerateQuiz/GenAI.jsx
+=======
+
+>>>>>>> bdb2c2e812fe8c88bb5ecbd10936342530d65018:App/Frontened/src/component/GenerateQuiz/GenAI.jsx
