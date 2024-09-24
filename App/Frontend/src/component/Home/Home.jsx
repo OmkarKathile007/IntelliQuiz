@@ -11,27 +11,22 @@ const Home = () => {
     <>
       <div className='w-full min-h-screen bg-black flex flex-col md:flex-row text-white border-2 border-pink-300'>
         <div className='w-full mt-12 md:mt-24 flex flex-col-reverse md:flex-row justify-between border-pink-500 border-2 px-4 md:px-0'>
-          <div className='border-2 border-purple-600 p-4 md:ml-32 md:w-1/2'>
-            <h2 className='text-3xl md:text-7xl font-bold text-blue-300 mt-10 md:mt-40'>
+          <div className='border-2 border-purple-600 p-4 md:ml-32 md:w-1/2 flex flex-col items-center gap-2'>
+            <h2 className='text-3xl md:text-8xl font-bold text-blue-300 mt-10 md:mt-40 '>
               AI Driven Quiz
             </h2>
-            <p className='mt-5 text-base md:text-xl '>
-              Experience the future of learning with our AI-driven quizzes. Tailored questions, instant feedback, and adaptive difficulty ensure a personalized and engaging experience.
+            <p className='mt-5 text-pretty md:text-xl font-semibold '>
+            Elevate your learning with AI-driven quizzes and multiplayer online modes, designed to make studying smarter and more engaging for students
             </p>
-            <ul className='mt-7 text-base md:text-xl ml-4 md:ml-8 '>
-              <li>Adaptive Learning</li>
-              <li>Instant Feedback</li>
-              <li>Detailed Analytics</li>
-              <li>Wide Range of Topics</li>
-            </ul>
-            <div className='mt-10 flex justify-center md:justify-start'>
-              <button className='bg-blue-700 p-4 px-8 md:px-16 rounded-md'>
+            
+            <div className=' flex justify-center md:justify-start mt-28 mr-14'>
+              <button className='bg-blue-700 p-4 px-8 md:px-16 rounded-md shadow-xl shadow-transparent'>
                 Get Started
               </button>
             </div>
           </div>
-          <div className='border-2 border-pink mt-8 md:mt-20 flex justify-center md:justify-end md:w-1/2 shadow-xl shadow-white'>
-            <img className='max-w-full' src={AIimage} alt='AI' />
+          <div className='border-2 border-pink  flex justify-center md:justify-end md:w-1/2 '>
+            <img className='h-fit w-10/12 mr-10 mt-20'   src={AIimage} alt='AI' />
           </div>
         </div>
       </div>
