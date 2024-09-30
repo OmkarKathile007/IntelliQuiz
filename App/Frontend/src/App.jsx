@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/"  element={<Home/>} />
             <Route path="/main" element={<Main/>} />
-               <Route path="/aiquiz" element={<AIQuiz/>}/>
+              
                <Route path="/mcqtest" element={<MCQTest/>} />
                <Route path="/videoquiz" element={<VideoQuiz/>} />
                <Route path="/userdashboard" element={<UserDashBoard/>} />
