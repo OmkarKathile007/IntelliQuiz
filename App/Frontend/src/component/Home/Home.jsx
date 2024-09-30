@@ -76,9 +76,9 @@ const Home = () => {
 
           
 
-         </div>
+         <div>
         
-      </div>
+      <div>
 
       <div className='bg-black w-full min-h-screen border-2 border-yellow-300'>
 
@@ -88,7 +88,7 @@ const Home = () => {
           <div className='w-1/2 m-auto'>
           <p className='text-white mt-8'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquid placeat possimus debitis fuga, maxime quos iure, dolore, et facilis sit voluptates ex minima at adipisci impedit ipsa natus illo fugiat quo.</p>
 
-          </div>
+          <div>
           
         </div>
             
