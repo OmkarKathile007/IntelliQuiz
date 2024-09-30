@@ -5,7 +5,6 @@ IntelliQuiz is an AI-driven quiz application that generates multiple-choice ques
 ## Features
 
 - Paste any paragraph into the input area to generate an MCQ-based quiz.
-- AI-powered question generation using Google Generative AI.
 - User-friendly interface built with React.
 - Backend powered by Node.js and Express.js.
 
